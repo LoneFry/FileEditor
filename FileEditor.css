@@ -1,0 +1,41 @@
+body{background-color:#fff;font:11pt Tahoma,sans-serif;}
+div.main {background-color:#00599b;padding-bottom:6px;}
+div.body {background-color:#fff;margin:0px 6px;}
+div#content{background-color:#fff;margin:0px 6px;}
+h1{color:white;margin:2px 6px;}
+a.logout{color:white;font:9pt Tahoma,sans-serif;margin:10px 10px 0 0;}
+ul#fileList a {color:#5a95c0;text-decoration:none;}
+ul#fileList a:hover {color:#5a95c0;text-decoration:underline;}
+
+a img { border: 0; }
+.clear {clear:both;}
+.center {text-align:center;}
+.right{float:right;}
+.left{float:left;}
+.subtle{font-style:italic;color:grey;}
+.red   {background-color:red;  color:white;padding:4px;font:bold 10pt sans-serif}
+.rounded{-moz-border-radius: 14px;-webkit-border-radius: 14px;-khtml-border-radius: 14px;border-radius: 14px;}
+.rounded .rounded{-moz-border-radius: 8px;-webkit-border-radius: 8px;-khtml-border-radius: 8px;border-radius: 8px;}
+.rounded .rounded > *:first-child{-moz-border-radius: 8px 8px 0 0;-webkit-border-radius: 8px 8px 0 0;-khtml-border-radius: 8px 8px 0 0;border-radius: 8px 8px 0 0;}
+
+form {margin:0}
+form.login {height:396px;width:296px;border:2px solid #3179ae;background:#D7E5F0;
+	text-align:center;margin:10px auto 0;}
+form.login p {font:600 18pt Arial;margin:70px auto 40px;color:#00599b;}
+form.login table {border:0px;width:100%;}
+form.login th {font:10pt Arial;padding:0px;color:#00599b;vertical-align:bottom;text-align:left;padding:0 50px;}
+form.login td {font:10pt Arial;padding:0 0 8px;color:#00599b;vertical-align:top;}
+form.login td input.text {font: 18pt bold Arial;width:188px;height:31px;background-color:#f2f2f2;
+	border:1px solid #252525;padding-top:3px;}
+form.login td input.submit {margin-top:20px;width:100px;height:30px;background-color:#5a95c0;
+	border:2px outset #5a95c0;font:14pt Tahoma,sans-serif;color:#333333;}
+input.submit {margin-top:20px;width:100px;height:30px;background-color:#5a95c0;border:2px outset #5a95c0;
+	font:14pt Tahoma,sans-serif;color:#333333;}
+
+form#formFile h3 {padding-top:3px;float:left;margin:0;padding:0;}
+form#formFile h3 span{border-bottom:1px solid #252525;background-color:#f2f2f2;}
+form#formFile h3 input{border:1px solid #252525;background-color:#f2f2f2;}
+form#formFile p{float:right;margin:0;padding:0;}
+form#formFile p input{margin:0;}
+form#formFile div{text-align:center;}
+form#formFile textarea {font-family:monospace;}

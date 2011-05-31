@@ -1,0 +1,21 @@
+Project     : FileEditor
+Created By  : LoneFry
+License     : CC BY-NC-SA
+               Creative Commons Attribution-NonCommercial-ShareAlike
+               http://creativecommons.org/licenses/by-nc-sa/3.0/
+Created on  : Jan 7, 2009
+               A basic File Editor for editing files on your server via the
+               browser with a regular expression white list to assure the
+               wrong files are not edited.
+Modified on : Jan 8, 2009
+               Added basic password auth and blacklist
+               Added styles and rounded corners (rounded.js)
+               Added tabbing support to the textarea
+            : Jan 9, 2009
+               Reorganized basic password protection and tabbing
+            : Jan 16, 2009
+               removed static keyword from compare function
+               added array pre-checks to foreach loops
+            : May 31, 2011
+               code re-org
+               ditch rounded.js for css based corners
